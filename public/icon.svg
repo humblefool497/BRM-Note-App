@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#0284c7" />
+      <stop offset="100%" stop-color="#0369a1" />
+    </linearGradient>
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#818cf8" />
+    </linearGradient>
+  </defs>
+  <!-- Background with rounded squircles -->
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)"/>
+  <!-- Inner subtle border -->
+  <rect x="16" y="16" width="480" height="480" rx="96" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="4"/>
+  
+  <!-- Modern Building & Clipboard Icon -->
+  <g transform="translate(106, 106) scale(1.25)" fill="none" stroke="white" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Clipboard Outline -->
+    <rect x="24" y="32" width="192" height="192" rx="28" stroke="url(#glowGrad)" stroke-width="14" fill="#090d16" fill-opacity="0.75" />
+    <!-- Clip Top -->
+    <path d="M80 32 V20 A12 12 0 0 1 92 8 H148 A12 12 0 0 1 160 20 V32" stroke="#38bdf8" stroke-width="14" fill="#0f172a" />
+    <!-- Checkmarks / Lines -->
+    <polyline points="52 92 68 108 108 68" stroke="#34d399" stroke-width="12" />
+    <line x1="124" y1="88" x2="184" y2="88" stroke="#94a3b8" stroke-width="10" />
+    
+    <polyline points="52 144 68 160 108 120" stroke="#38bdf8" stroke-width="12" />
+    <line x1="124" y1="140" x2="184" y2="140" stroke="#94a3b8" stroke-width="10" />
+  </g>
+</svg>

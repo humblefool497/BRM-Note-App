@@ -1,0 +1,8 @@
+{
+  "name": "BRM Intelligence - CRM & Meeting Note Engine",
+  "description": "Specialized executive assistant for Business Relationship Managers to convert messy meeting notes and voice transcripts into structured CRM data, tagged action items, stakeholder logs, and governance follow-ups.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
